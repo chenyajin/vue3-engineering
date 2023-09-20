@@ -16,7 +16,7 @@
       <el-button type="danger">Danger</el-button>
     </el-row>
     <el-row>
-      <el-select v-model="value" class="m-2" placeholder="Select" size="middle">
+      <el-select v-model="value" class="m-2" placeholder="Select">
         <el-option
           v-for="item in options"
           :key="item.value"

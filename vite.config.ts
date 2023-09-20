@@ -35,8 +35,8 @@ export default defineConfig({
   ],
   server: {
     open: true, // 服务启动自动打开浏览器
-    host: '127.0.0.1', // 设置服务启动地址
-    port: 5000, // 设置服务启动端口号
+    // host: '127.0.0.1', // 设置服务启动地址
+    // port: 5000, // 设置服务启动端口号
     cors: true, // 允许跨域
     // 设置代理
     proxy: {
