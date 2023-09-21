@@ -11,23 +11,20 @@
 </template>
 
 <script setup lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue'
-import { useCounterStore } from '@/stores/modules/counter'
+  import HelloWorld from '@/components/HelloWorld.vue'
+  import { useCounterStore } from '@/stores/modules/counter'
 
-defineOptions({
-  name: 'CounterPage',
-})
+  defineOptions({
+    name: 'CounterPage',
+  })
 
-const counterStore = useCounterStore() // 创建 counter 实例
-const count = computed(() => counterStore.count) // 引用 counter 实例里的属性 count，具有响应式
-const doubleCount = computed(() => counterStore.doubleCount) // 引用 counter 实例里的属性 doubleCount，具有响应式
+  const counterStore = useCounterStore() // 创建 counter 实例
+  const count = computed(() => counterStore.count) // 引用 counter 实例里的属性 count，具有响应式
+  const doubleCount = computed(() => counterStore.doubleCount) // 引用 counter 实例里的属性 doubleCount，具有响应式
 
-const onPlusOne = () => {
-  counterStore.increment() // 调用 counter 实例里的方法
-}
-
+  const onPlusOne = () => {
+    counterStore.increment() // 调用 counter 实例里的方法
+  }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

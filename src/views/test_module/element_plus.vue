@@ -2,7 +2,7 @@
  * @Author: ChenYaJin
  * @Date: 2023-09-20 17:35:09
  * @LastEditors: ChenYaJin
- * @LastEditTime: 2023-09-20 18:32:09
+ * @LastEditTime: 2023-09-21 15:49:32
  * @Description: 
 -->
 <template>
@@ -29,22 +29,18 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-
-defineOptions({
-  name: 'ElementPlusComponent'
-})
-
-const value = ref('')
-
-const options = [
-  {
-    value: 'Option1',
-    label: 'Option1',
-  },
-]
+  import { ref } from 'vue'
+  defineOptions({
+    name: 'ElementPlusComponent',
+  })
+  const value = ref('')
+  const myName = ref('')
+  const options = [
+    {
+      value: 'Option1',
+      label: 'Option1',
+    },
+  ]
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
