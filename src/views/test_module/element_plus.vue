@@ -2,7 +2,7 @@
  * @Author: ChenYaJin
  * @Date: 2023-09-20 17:35:09
  * @LastEditors: ChenYaJin
- * @LastEditTime: 2023-09-21 15:49:32
+ * @LastEditTime: 2023-09-21 16:02:29
  * @Description: 
 -->
 <template>
@@ -34,7 +34,7 @@
     name: 'ElementPlusComponent',
   })
   const value = ref('')
-  const myName = ref('')
+  // const myNameLast = ref('')
   const options = [
     {
       value: 'Option1',

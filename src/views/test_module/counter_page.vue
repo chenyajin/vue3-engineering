@@ -25,6 +25,7 @@
   const onPlusOne = () => {
     counterStore.increment() // 调用 counter 实例里的方法
   }
+  // const myName = ref('')
 </script>
 
 <style scoped></style>

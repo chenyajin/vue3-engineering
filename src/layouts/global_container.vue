@@ -1,11 +1,10 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
-import NavComponent from './nav.vue'
+  import { RouterView } from 'vue-router'
+  import NavComponent from './nav.vue'
 
-defineOptions({
-  name: 'GlobalContainer'
-})
-
+  defineOptions({
+    name: 'GlobalContainer',
+  })
 </script>
 
 <template>

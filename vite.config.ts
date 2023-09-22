@@ -9,14 +9,13 @@ import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import UnoCSS from 'unocss/vite'
 
-
 export default defineConfig({
-  base: './',  // 设置打包路径
+  base: './', // 设置打包路径
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)), // 设置 `@` 指向 `src` 目录
-      '#': fileURLToPath(new URL('./types', import.meta.url)),  // 设置 `#` 指向 `types` 目录
-    }
+      '#': fileURLToPath(new URL('./types', import.meta.url)), // 设置 `#` 指向 `types` 目录
+    },
   },
   plugins: [
     vue(),
@@ -51,7 +50,7 @@ export default defineConfig({
     target: 'es2015', // 设置最终构建的浏览器兼容目标
     sourcemap: false, // 构建后是否生成 source map 文件
     chunkSizeWarningLimit: 2000, //  chunk 大小警告的限制
-    reportCompressedSize: false,  // 启用/禁用 gzip 压缩大小报告
+    reportCompressedSize: false, // 启用/禁用 gzip 压缩大小报告
     outDir: 'dist', //设置打包输出目录，默认dist
     assetsDir: 'assets', //设置静态文件输出目录，默认assets
     assetsInlineLimit: 4096, // 设置引用资源 base64 内联的最大值，默认4096=4kb

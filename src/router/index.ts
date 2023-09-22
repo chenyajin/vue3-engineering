@@ -14,7 +14,7 @@ const router = createRouter({
   // 禁止尾部斜杠
   strict: true,
   scrollBehavior: () => ({ left: 0, top: 0 }),
-  routes: constantRouter
+  routes: constantRouter,
 })
 
 // 初始化路由函数，并注入路由守卫
