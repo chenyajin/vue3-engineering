@@ -1,52 +1,23 @@
-# vue3-template
+# vue3-engineering
 
-This template should help get you started developing with Vue 3 in Vite.
+【 Vue3 + Vite 前端项目工程化项目】集成相关生态工具链
 
-## Recommended IDE Setup
+# 技术栈
+- [Vue 3.3](https://cn.vuejs.org/) - 渐进式 JavaScript 框架
+- [Vite 3](https://vitejs.cn/) - 构建工具
+- [Vue Router 4.x](https://router.vuejs.org/zh/) - 路由管理工具
+- [Pinia](https://pinia.vuejs.org/zh/) - 全局状态管理工具
+- [Element Plus](https://element-plus.gitee.io/zh-CN/) - UI组件库
+- [Unocss](https://unocss.dev/) - 原子化 CSS
+- [ESlint](https://eslint.nodejs.cn/) - 代码检查工具
+- [Prettier](https://prettier.io/) - 代码格式化工具
+- [Husky](https://typicode.github.io/husky/#/) + [lint-stage](https://github.com/okonet/lint-staged) - git hooks工具
+- [Commitlint](https://commitlint.js.org/#/) - 提交规范工具
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+# 环境
+- nodejs - 16.x
+- pnpm - 7.x
 
-## Type Support for `.vue` Imports in TS
+# 搭建教程
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+[【Vue3 前端项目工程化】 集成相关生态工具链及其改造](https://github.com/chenyajin/vue3-engineering)
